@@ -7,6 +7,8 @@ If you’re facing the same issue, the following systemd one-shot service can ke
 ```bash
 sudo systemctl start t2-touchbar-reprobe-strong.service
 
+```markdown
+
 ⚠️ This is a workaround, not a permanent fix.
 
 The tarball touchbar-logs.tgz includes combined journalctl and dmesg outputs.
