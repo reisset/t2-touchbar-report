@@ -9,9 +9,9 @@ The goal is to provide logs, system outputs, and a temporary workaround to help 
 Temporary Workaround
 
 If you’re facing the same issue, the following systemd one-shot service can keep the Touch Bar alive:
-
+```bash
 sudo systemctl start t2-touchbar-reprobe-strong.service
-
+```
 ⚠️ This is a workaround, not a permanent fix.
 
 Logs
