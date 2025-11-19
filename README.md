@@ -16,16 +16,5 @@ sudo systemctl start t2-touchbar-reprobe-strong.service
 
 Logs
 
-The tarball touchbar-logs.tgz includes combined journalctl and dmesg outputs.
-
-Kernels Tested
-
-6.17.8-x64v3-t2-noble-xanmod1
-
-6.17.8-1-t2-noble
-
-6.12.58-1-t2-noble
-
-Contributions
-
-If you have patches, insights, or suggestions, feel free to open issues or PRs.
+The tarball touchbar-logs.tgz includes combined journalctl and dmesg outputs and can be downloaded here:
+Download touchbar-logs.tgz
