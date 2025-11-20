@@ -10,3 +10,6 @@ RemainAfterExit=true
 
 [Install]
 WantedBy=multi-user.target
+
+
+#Make executable with sudo chmod +x /usr/local/bin/t2-touchbar-reprobe-strong.sh
