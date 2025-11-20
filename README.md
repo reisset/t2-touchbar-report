@@ -13,11 +13,13 @@ Files (present on my machine):
 - `/usr/local/bin/t2-touchbar-reprobe-strong.sh` — the reprobe script (uses `modprobe`, PCI rescan, optional `tiny-dfr` restart).
 
 If you’re facing the same issue, manually start the following systemd one-shot service to keep the Touch Bar alive:
-
 ```bash
 sudo systemctl start t2-touchbar-reprobe-strong.service
 ```
-
+If the .service line isn't working, try manually executing the .sh file:
+```bash
+sudo /usr/local/bin/t2-touchbar-reprobe-strong.sh
+```
 Logs/files
 
 The tarball touchbar-logs.tgz includes combined journalctl and dmesg outputs. The .service file contents are also included in this repo.
