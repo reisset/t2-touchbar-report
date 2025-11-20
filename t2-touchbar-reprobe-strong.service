@@ -1,0 +1,12 @@
+[Unit]
+Description=Strong retry for T2 Touch Bar enumeration
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/t2-touchbar-reprobe-strong.sh
+TimeoutStartSec=320
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
