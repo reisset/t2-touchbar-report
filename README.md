@@ -1,14 +1,12 @@
-T2 Touch Bar Report
+T2 Linux Touch Bar Report
 
 This repository contains logs and observations for the Touch Bar issue on MacBookPro16,1 (2019 15-inch) running Ubuntu 24.04.03 with T2-enabled kernels (6.17.x variants).
 
-Purpose
-
-The goal is to provide logs, system outputs, and a temporary workaround to help developers debug the Touch Bar HID enumeration problem.
+This is mainly for dumb people like me who wiped their MacOS partition, unlike https://wiki.t2linux.org/ recommends to do, and need a workaround.
 
 This project includes a **custom systemd service** and **helper script** I created locally to reprobe the T2 Touch Bar devices on a MacBookPro16,1 running Ubuntu 24.04.03.  
 Ubuntu does **not** ship these files by default — they are a community-created workaround to reload the `apple_bce` / `hid_appletb_*` stack and re-enumerate the Touch Bar.
-Files (present on my machine):
+Files:
 - `/etc/systemd/system/t2-touchbar-reprobe-strong.service` — systemd unit that runs the reprobe script.
 - `/usr/local/bin/t2-touchbar-reprobe-strong.sh` — the reprobe script (uses `modprobe`, PCI rescan, optional `tiny-dfr` restart).
 
