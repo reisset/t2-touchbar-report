@@ -1,4 +1,7 @@
-T2 Linux Touch Bar Report
+### This script is essentially deprecated. I initially simply messed up the install outlined at https://github.com/t2linux/T2-Ubuntu/releases/tag/v6.18.2-1 -> You truly only need to create your own ISO using the provided ISO's from the T2 Linux community. And flash your macbook using their ISO. It literally fixes everything. Please, just follow the t2linux guide to avoid any troubles.
+
+
+## T2 Linux Touch Bar Report
 
 This repository contains logs and observations for the Touch Bar issue on MacBookPro16,1 (2019 15-inch) running Ubuntu 24.04.03 with T2-enabled kernels (6.17.x variants).
 
